@@ -1,0 +1,12 @@
+Source: ros-melodic-persistent-topics
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-persistent-topics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-rospy
+Description: Persists the contents of specific latched topics between roscore invocations
